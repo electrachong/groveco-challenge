@@ -1,0 +1,22 @@
+{
+  "name": "find_store",
+  "version": "1.0.0",
+  "description": "A command-line tool to find the closest store to a given address or zip code.",
+  "main": "index.js",
+  "bin": {
+    "find_store": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Electra Chong",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.2.0",
+    "node-geocoder": "^3.22.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
